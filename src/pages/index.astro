@@ -1,0 +1,105 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+import Features2 from '~/components/widgets/Features2.astro';
+import Features from '~/components/widgets/Features.astro';
+import Stats from '~/components/widgets/Stats.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import Brands from '~/components/widgets/Brands.astro';
+
+const metadata = {
+  title: 'Muslim Hikers - Home',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline="Exploring the Outdoors Together"
+    actions={[
+      {
+        variant: 'primary',
+        target: '_blank',
+        text: 'Join Us',
+        href: 'https://fb.com/groups/muslim.hikers.ontario',
+        icon: 'tabler:mountain',
+      }
+    ]}
+  >
+    <Fragment slot="subtitle">
+      Join one of the largest Muslims Hiking group in Ontario
+    </Fragment>
+
+    <!-- <Fragment slot="image">
+      <div class="relative h-0 pb-[56.25%]">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/dsTXcSeAZq8"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+          allowfullscreen
+          class="absolute top-0 left-0 w-full h-full"
+        >
+        </iframe>
+      </div>
+    </Fragment> -->
+  </Hero>
+
+  <!-- Stats Widget ****************** -->
+
+  <Stats
+    title="Activities we've undertaken recently as a group"
+    subtitle="From hiking the Bruce Trail, to the various falls in Hamilton"
+    stats={[
+      { title: 'KM Covered', amount: '500KM+' },
+      { title: 'Trails Completed', amount: '40+' },
+      { title: 'Total Members', amount: '2400' },
+    ]}
+  />
+
+  <!-- FAQs Widget ******************* -->
+
+  <FAQs
+    title="Frequently Asked Questions"
+    items={[
+      {
+        title: 'Is it free to join a hike?',
+        description:
+          'Yes! Our hikes are volunteer-led and are free to attend. We sometimes run campaigns to raise money where we encourage a minimum donation.',
+      },
+      {
+        title: 'I\'ve never hiked before, Can I join?',
+        description:
+          'Absolutely. Some of our hikes are pretty urban and easy for newbies to join. Before you join an event, make sure to note the difficulty and distance in the event details',
+      },
+      {
+        title: 'Can I bring a friend with me?',
+        description:
+          'Yes, Just make sure your friend also signs the waiver before attending.',
+      },
+      {
+        title: 'What do I have to bring on a hike?',
+        description:
+          '',
+      },
+      {
+        title: 'I don\'t have a car, how can I attend the hike?',
+        description:
+          'On the event page for each of our outing, we attach a rideshare sheet to facilitate people who either don\'t have a car, or would like to ridepool, check the sheet for drivers offering rides in your area and contact them directly.',
+      },
+
+    ]}
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </FAQs>
+
+ 
+</Layout>
