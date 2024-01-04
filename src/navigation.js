@@ -7,10 +7,10 @@ export const headerData = {
       text: 'Blog',
       href: getBlogPermalink(),
     },
-    // {
-    //   text: 'About us',
-    //   href: getPermalink('/about'),
-    // }
+    {
+      text: 'Waiver',
+      href: 'https://forms.gle/FHFrn1w41DoCPJGD9',
+    }
     
   ],
   actions: [{ text: 'Join Us', href: 'https://fb.com/groups/muslim.hikers.ontario', target: '_blank' }],
