@@ -2,7 +2,7 @@
 publishDate: 2024-01-01
 title: 2023 Year in Review
 excerpt: A highlight of the activities organized by Muslim Hikers in 2023
-image: '/images/flower-2023.jpg'
+image: '/images/flower-2023.jpg?auto=format&fit=crop&w=2070&q=80'
 tags:
   - year-review
 ---
