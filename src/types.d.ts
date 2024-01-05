@@ -160,6 +160,7 @@ export interface Input {
   type: HTMLInputTypeAttribute;
   name: string;
   label?: string;
+  isRequired?: string;
   autocomplete?: string;
   placeholder?: string;
 }
@@ -203,6 +204,7 @@ export interface Form {
   textarea?: Textarea;
   disclaimer?: Disclaimer;
   button?: string;
+  name?: string;
   description?: string;
 }
 
