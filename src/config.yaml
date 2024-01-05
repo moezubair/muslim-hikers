@@ -1,22 +1,22 @@
 site:
-  name: Muslim Hikers - Ontario
-  site: 'https://muslimhikers.ca'
+  name: Muslim Outdoor Adventures
+  site: 'https://muslimoutdooradventures.com'
   base: '/'
   trailingSlash: false
 
-  googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
+  googleSiteVerificationId: RkZBfJsZvpGOVeIxPJvvx7JaicnFuyaLkT8iUiPnWzw
 
 # Default SEO metadata
 metadata:
   title:
-    default: Muslim Hikers
-    template: '%s — Muslim Hikers'
+    default: Muslim Outdoor Adventures - Ontario
+    template: '%s — Muslim Outdoor Adventures'
   description: "\U0001F680 A Non-Profit organization with an aim to get more muslims exploring the outdoors in Ontario Canada"
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: Muslim Hikers
+    site_name: Muslim Outdoor Adventures
     images:
       - url: '~/assets/images/default.png'
         width: 1200
