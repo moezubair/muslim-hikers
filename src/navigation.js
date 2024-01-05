@@ -10,10 +10,14 @@ export const headerData = {
     {
       text: 'Waiver',
       href: 'https://forms.gle/FHFrn1w41DoCPJGD9',
+    },
+    {
+      text: 'Join the Team',
+      href: getPermalink('social-media'),
     }
     
   ],
-  actions: [{ text: 'Join Us', href: 'https://fb.com/groups/muslim.hikers.ontario', target: '_blank' }],
+  actions: [{ text: 'Events', href: 'https://fb.com/groups/muslim.hikers.ontario', target: '_blank' }],
 };
 
 export const footerData = {

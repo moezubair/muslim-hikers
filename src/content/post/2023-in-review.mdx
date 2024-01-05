@@ -6,9 +6,18 @@ image: '/images/flower-2023.jpg?auto=format&fit=crop&w=2070&q=80'
 tags:
   - year-review
 ---
+import Stats from '~/components/widgets/Stats.astro';
 
 Alhumdulilah it’s been a very eventful year for the group. We grew from just a handful of friends organizing hikes to almost 2,400 members this year. As we reflect upon the past year, we are filled with gratitude and awe at the incredible journey we have collectively undertaken. The trails we traversed and the bonds we forged along the way have made this year truly remarkable. All of this wouldn’t have been possible without the active participation of everyone who showed up to our events, and the organisers who volunteered their time and energy into making each event a successful one. Together, we hiked nearly 500 km this year, with our two longest hikes being ~30km and ~20km on the Bruce Trail. Here are some of the highlights of activities we did as a group this year.
+<Stats
+  title="Achievements"
+  subtitle=""
+  stats={[
 
+    { title: 'Total Members', amount: '2300' },
+    { title: 'Raised for Charity', amount: '$2,900' },
+  ]}
+/>
 ## Camping Trip to Killarney
 
 ![Group Picture](/images/killarney-2023.jpg)
