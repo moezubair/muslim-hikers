@@ -1,0 +1,114 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import ContactUs from '~/components/widgets/Contact.astro';
+import Features from '~/components/widgets/Features.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+
+const metadata = {
+  title: 'Volunteer Opportunity - Social Media Coordinator',
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Features
+  id="features"
+  tagline=""
+  title="Social Media Coordinator"
+  subtitle="We are looking for a passionate and committed Volunteer Social Media Coordinator to join our team at Muslim Hikers Ontario. \
+  As a valued member of our team, the Volunteer Social Media Coordinator will play a crucial role in shaping and implementing our social media strategy. \
+  This is an excellent opportunity for individuals who are enthusiastic about making a positive impact in their community and supporting our \
+   mission of promoting outdoor activities in the Muslim Community. Your Responsbilities will be:"
+  items={[
+    {
+      title: 'Social Media Strategy and Planning',
+      description:
+        'Contribute to the development and execution of a comprehensive social media strategy aligned with organizational goals.',
+      icon: 'tabler:brand-tailwind',
+    },
+    {
+      title: 'Content Creation and Curation',
+      description:
+        'Assist in creating engaging and relevant content for various social media platforms, sharing impactful stories and updates.',
+      icon: 'tabler:components',
+    },
+    {
+      title: 'Community Engagement',
+      description:
+        'Monitor social media channels, engaging with our online community through comments, messages, and mentions.',
+      icon: 'tabler:list-check',
+    },
+    {
+      title: 'Analytics and Reporting',
+      description:
+        'Collaborate on the analysis of social media metrics to assess campaign effectiveness and provide insights for improvement.',
+      icon: 'tabler:rocket',
+    },
+    {
+      title: 'Partnerships and Outreach',
+      description:
+        "Assist in identifying and engaging with influencers, partners, and supporters to expand the organization's reach.",
+      icon: 'tabler:arrows-right-left',
+    },
+  ]}
+/>
+<Features3
+    title="Qualifications"
+    columns={3}
+    isBeforeContent={true}
+    items={[
+      {
+        description: 'Strong written and verbal communication skills.',
+        icon: 'tabler:check',
+      },
+      {
+        description: 'Understanding of social media platforms and willingness to learn.',
+        icon: 'tabler:check',
+      },
+      {
+        description: 'Creativity and a collaborative mindset.',
+        icon: 'tabler:check',
+      },
+      {
+        description: 'Available to put in 3-5 hours a week.',
+        icon: 'tabler:check',
+      },
+
+
+    ]}
+  />
+
+  <ContactUs
+    title="Apply for this Position"
+    subtitle="Fill out the following form if you'd like to apply for this position."
+    button="Apply"
+    name="social-media"
+    inputs={[
+      {
+        type: 'text',
+        name: 'name',
+        label: 'Full Name',
+      },
+      {
+        type: 'email',
+        name: 'email',
+        label: 'Email',
+      },
+        {
+        type: 'tel',
+        name: 'phone',
+        label: 'Phone Number',
+      },
+    ]}
+    textarea={{
+      label: 'Please list qualifications and experiences that you bring to this role',
+    }}
+    disclaimer={{
+      label:
+        'By submitting this contact form, you acknowledge and agree to the collection of your personal information.',
+    }}
+    description=""
+  />
+</Layout>
