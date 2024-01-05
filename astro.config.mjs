@@ -29,7 +29,9 @@ export default defineConfig({
   trailingSlash: SITE.trailingSlash ? 'always' : 'never',
 
   output: 'static',
-
+  redirects: {
+    '/waiver': 'https://forms.gle/FHFrn1w41DoCPJGD9'
+  },
   integrations: [
     tailwind({
       applyBaseStyles: false,
