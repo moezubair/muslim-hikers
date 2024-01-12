@@ -18,10 +18,6 @@ export const headerData = {
       text: 'Join the Team',
       links:[
         {
-          text: 'Social Media Coordinator',
-          href: getPermalink('/roles/social-media'),
-        },
-        {
           text: 'Website Developer',
           href: getPermalink('/roles/webdev'),
         },

@@ -1,0 +1,25 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Stats from '~/components/widgets/Stats.astro';
+import Features from '~/components/widgets/Features.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+
+const metadata = {
+  title: 'Survey',
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+
+<div class="mb-8 md:mx-auto md:mb-12 text-center max-w-3xl">
+<p class="mt-4 text-muted text-xl"><br />Please take a few minutes to complete the following survey. Your feedback will help us serve you better.</p>
+</div>
+
+  <!-- Hero Widget ******************* -->
+  <div data-tf-widget="R6DXhdS2" data-tf-opacity="100" data-tf-iframe-props="title=Muslim Hikers Feedback Form" data-tf-transitive-search-params data-tf-medium="snippet" style="width:100%;height:600px;"></div><script type="text/javascript" src="//embed.typeform.com/next/embed.js"></script>
+
+
+
+
+</Layout>
