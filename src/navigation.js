@@ -14,19 +14,19 @@ export const headerData = {
       text: 'Waiver',
       href: 'https://forms.gle/FHFrn1w41DoCPJGD9',
     },
-    {
-      text: 'Join the Team',
-      links:[
-        {
-          text: 'Website Developer',
-          href: getPermalink('/roles/webdev'),
-        },
-      ]
-    }
+    // {
+    //   text: 'Join the Team',
+    //   links:[
+    //     {
+    //       text: 'Website Developer',
+    //       href: getPermalink('/roles/webdev'),
+    //     },
+    //   ]
+    // }
     
   ],
   socialLinks: [
-    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://instagram.com/muslim.hikers.ontario' },
+    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://instagram.com/muslimoutdooradventures' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://fb.com/groups/muslim.hikers.ontario' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
   ],
@@ -35,7 +35,7 @@ export const headerData = {
 
 export const footerData = {
   socialLinks: [
-    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://instagram.com/muslim.hikers.ontario' },
+    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://instagram.com/muslimoutdooradventures' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://fb.com/groups/muslim.hikers.ontario' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
   ],
