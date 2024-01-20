@@ -7,13 +7,35 @@ export const headerData = {
       href: getPermalink('/'),
     },
     {
+      text: 'About Us',
+      href: getPermalink('/about')
+    },
+    {
       text: 'Blog',
       href: getBlogPermalink(),
     },
     {
-      text: 'Waiver',
-      href: 'https://forms.gle/FHFrn1w41DoCPJGD9',
+      text: 'Resources',
+      links: [
+        {
+          text: 'Rules and Etiquettes',
+          href: getPermalink('/rules')
+        },
+        {
+          text: 'Harrasement Policy',
+          href: getPermalink('/harrasement')
+        },
+        {
+          text: 'Waiver',
+          href: 'https://forms.gle/FHFrn1w41DoCPJGD9',
+        }
+      ]
     },
+    {
+      text: 'Survey',
+      href: getPermalink('/survey')
+    },
+
     // {
     //   text: 'Join the Team',
     //   links:[
@@ -34,10 +56,44 @@ export const headerData = {
 };
 
 export const footerData = {
+  links: [{
+    title: 'Company',
+    links: [
+      {
+        text: 'About Us',
+        href: getPermalink('/about')
+      },
+      {
+        text: 'Privacy Policy',
+        href: getPermalink('/privacy')
+      },
+    ]
+  },
+  {
+    title: 'Resources',
+    links: [
+      {
+        text: 'Waiver',
+        href: getPermalink('/waiver')
+      },
+      {
+        text: 'Rules and Etiquettes',
+        href: getPermalink('/rules')
+      },
+      {
+        text: 'Harrasement Policy',
+        href: getPermalink('/harrasement')
+      }
+    ]
+  },
+  ],
   socialLinks: [
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://instagram.com/muslimoutdooradventures' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://fb.com/groups/muslim.hikers.ontario' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
   ],
-  footNote: ``
+  secondaryLinks: [
+    {text: ''}
+  ],
+  footNote: '© ' + (new Date()).getFullYear() + ` Muslim Outdoor Adventures. All rights reserved. <br /><small><small>The information on this site might not be accurate or up-to-date. Use any information provided at your own risk.</small></small>`
 };
