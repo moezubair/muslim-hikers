@@ -23,7 +23,7 @@ export const headerData = {
         },
         {
           text: 'Harrasement Policy',
-          href: getPermalink('/harrasement')
+          href: getPermalink('/harassment')
         },
         {
           text: 'Waiver',
@@ -82,7 +82,7 @@ export const footerData = {
       },
       {
         text: 'Harrasement Policy',
-        href: getPermalink('/harrasement')
+        href: getPermalink('/harassment')
       }
     ]
   },
