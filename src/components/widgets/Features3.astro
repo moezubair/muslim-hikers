@@ -30,8 +30,10 @@ const {
     classes?.container ?? ''
   }`}
   bg={bg}
->
-  <Headline title={title} subtitle={subtitle} tagline={tagline} classes={classes?.headline} />
+>{
+  title && ( <Headline title={title} subtitle={subtitle} tagline={tagline} classes={classes?.headline} />)
+}
+ 
 
   <div aria-hidden="true" class="aspect-w-16 aspect-h-7">
     {

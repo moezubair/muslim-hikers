@@ -1,15 +1,11 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 
-import Hero from '~/components/widgets/Hero.astro';
 import Hero2 from '~/components/widgets/Hero2.astro';
 
-import Features2 from '~/components/widgets/Features2.astro';
-import Features from '~/components/widgets/Features.astro';
 import Stats from '~/components/widgets/Stats.astro';
 
 import FAQs from '~/components/widgets/FAQs.astro';
-import Brands from '~/components/widgets/Brands.astro';
 
 const metadata = {
   title: 'Muslim Hikers - Home',
@@ -24,6 +20,7 @@ const metadata = {
       {
         variant: 'primary',
         target: '_blank',
+        type: 'submit',
         text: 'Join our next Hike!',
         href: 'https://fb.com/groups/muslim.hikers.ontario/events',
         icon: 'tabler:tree',
@@ -67,9 +64,9 @@ const metadata = {
     title="Activities we've undertaken recently as a group"
     subtitle="From hiking the Bruce Trail, to fundraising events and workshops, we do it all!"
     stats={[
-      { title: 'KM Covered', amount: '500KM+' },
+      { title: 'Hiked', amount: '500KM+' },
       { title: 'Trails Completed', amount: '40+' },
-      { title: 'Total Members', amount: '2300+' },
+      { title: 'Total Members', amount: '2400+' },
       { title: 'Raised for Charity', amount: '$2,900+' },
     ]}
   />
@@ -113,5 +110,5 @@ const metadata = {
     </Fragment>
   </FAQs>
 
- 
 </Layout>
+
