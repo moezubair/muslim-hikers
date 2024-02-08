@@ -28,6 +28,10 @@ export const headerData = {
         {
           text: 'Waiver',
           href: 'https://forms.gle/FHFrn1w41DoCPJGD9',
+        },
+        {
+          text: 'Beginners Guide to Leading a Hike',
+          href: getPermalink('/guides/leading')
         }
       ]
     },
@@ -83,6 +87,10 @@ export const footerData = {
       {
         text: 'Harrasement Policy',
         href: getPermalink('/harassment')
+      },
+      {
+        text: 'Beginners Guide to Leading a Hike',
+        href: getPermalink('/guides/leading')
       }
     ]
   },
