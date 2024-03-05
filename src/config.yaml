@@ -9,7 +9,7 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: Muslim Outdoor Adventures - Ontario
+    default: Muslim Outdoor Adventures
     template: '%s — Muslim Outdoor Adventures'
   description: "\U0001F680 A Non-Profit organization with an aim to get more muslims exploring the outdoors in Ontario Canada"
   robots:

@@ -14,6 +14,7 @@ module.exports = {
       fontFamily: {
         sans: ['var(--aw-font-sans)', ...defaultTheme.fontFamily.sans],
         serif: ['var(--aw-font-serif)', ...defaultTheme.fontFamily.serif],
+        baron: ["Baron", "sans-serif"],
         heading: ['var(--aw-font-heading)', ...defaultTheme.fontFamily.sans],
       },
     },

@@ -88,3 +88,9 @@
 .dd *:first-child {
   margin-top: 0;
 }
+
+@font-face {
+  font-family: 'Baron';
+  src: url('../fonts/baronneue-regular-webfont.woff') format('woff2'),
+       url('../fonts/baronneue-regular-webfont.woff') format('woff');
+}

@@ -18,6 +18,10 @@ export const headerData = {
       text: 'Resources',
       links: [
         {
+          text: 'Beginners Guide to Leading a Hike',
+          href: getPermalink('/guides/leading')
+        },
+        {
           text: 'Rules and Etiquettes',
           href: getPermalink('/rules')
         },
@@ -26,18 +30,18 @@ export const headerData = {
           href: getPermalink('/harassment')
         },
         {
+          text: 'Survey',
+          href: getPermalink('/survey')
+        },
+        {
           text: 'Waiver',
           href: 'https://forms.gle/FHFrn1w41DoCPJGD9',
         },
-        {
-          text: 'Beginners Guide to Leading a Hike',
-          href: getPermalink('/guides/leading')
-        }
       ]
     },
     {
-      text: 'Survey',
-      href: getPermalink('/survey')
+      text: 'Challenges',
+      href: getPermalink('/challenges')
     },
 
     // {
@@ -56,7 +60,7 @@ export const headerData = {
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://fb.com/groups/muslim.hikers.ontario' },
     { ariaLabel: 'Strava', icon: 'tabler:brand-strava', href: 'https://www.strava.com/clubs/muslimoutdooradventures' },
   ],
-  actions: [{ text: 'Events', href: 'https://fb.com/groups/muslim.hikers.ontario', target: '_blank' }],
+  actions: [{ text: 'Events', href: 'https://fb.com/groups/muslim.hikers.ontario/events', target: '_blank' }],
 };
 
 export const footerData = {
@@ -89,11 +93,32 @@ export const footerData = {
         href: getPermalink('/harassment')
       },
       {
-        text: 'Beginners Guide to Leading a Hike',
+        text: 'Guide to Leading a Hike',
         href: getPermalink('/guides/leading')
       }
     ]
   },
+  {
+    title: 'Club Challenges',
+    links: [
+      {
+        text: '2024 - Ramadan Challenge',
+        href: getPermalink('/challenges#2024-ramadan-challenge')
+      },
+      {
+        text: 'Bruce Trail Challenge',
+        href: getPermalink('/challenges#hike-the-entire-bruce-trail')
+      },
+      {
+        text: 'Wilderness Challenge',
+        href: getPermalink('/challenges#a-week-in-the-wilderness')
+      },
+      {
+        text: 'Natural Leader Challenge',
+        href: getPermalink('/challenges#natural-leader')
+      },
+    ]
+  }
   ],
   socialLinks: [
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://instagram.com/muslimoutdooradventures' },

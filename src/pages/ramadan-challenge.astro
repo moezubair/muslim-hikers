@@ -1,0 +1,116 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero2 from '~/components/widgets/Hero2.astro';
+
+import Testimonials from '~/components/widgets/Testimonials.astro';
+
+import FAQs from '~/components/widgets/FAQs.astro';
+
+const metadata = {
+  title: 'Ramadan Challenge',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+  <Hero2
+    tagline="Step into Spiritual Serenity"
+    image={{
+      src: '/images/pages/ramadan/bruce.jpg',
+      alt: 'hiking',
+    }}
+  >
+    <Fragment slot="title">
+     2024 Ramadan Challenge
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      <span class="hidden sm:inline">
+        Embrace Ramadan with Our Hiking Challenge – Connect with Nature, Nurture Your Faith, and Grow Together!
+    </Fragment>
+  </Hero2>
+
+  <section class="mb-8 md:mx-auto md:mb-12 max-w-3xl">
+    <h1 class="font-bold font-heading text-4xl md:text-5xl leading-tighter tracking-tighter text-center">The Challenge</h1>
+    <div
+      class="mx-auto prose prose-lg max-w-4xl dark:prose-invert dark:prose-headings:text-slate-300 prose-md prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-blue-600 dark:prose-a:text-blue-400 prose-img:rounded-md prose-img:shadow-lg mt-8"
+    >
+      <slot />
+      
+<p>Ramadan is a time for reflection, prayer and to reconnect with our faith with pure intentions. This is the month we try to be the best version of ourselves, and nip any bad habits that we might have adopted over the year. Through fasting, praying, reading the Quran and giving charity, we seek to get closer to the Allah, and strengthen our spiritual connection. It's a transformative period that goes beyond the physical act of abstaining from food and drink; it's about self-discipline, empathy, and fostering a deeper understanding of the values that define us. Ramadan encourages us to cultivate patience, gratitude, and compassion, not only towards ourselves but also towards others. As an outdoors adventure group, this sacred month provides an opportunity to merge the spiritual with the physical, finding solace and inspiration in nature. Through mindful hiking, we aim to embrace the challenges of staying active during Ramadan, using the trails as a space for reflection and collective growth. </p>
+<p>
+We also need to be mindful that any activity we partake, does not hinder our ability to fast, do the obligatory prayers, and have the energy to be present in Taraweeh prayers. This challenge is not for everyone, if you feel like hiking in Ramadan will make you too tired to pray, or fast, you should abstain from it. With that being said, the 2024 Ramadan Challenge is to continue to be active in Ramadan. With shorter, quieter hikes, we hope to continue spending sometime appreciating nature and stay connected to the community. 
+</p>
+<p>
+There are two Ramadan challenges for 2024:</p>
+<ol>
+  <li>Participate in <strong>4</strong> group events during Ramadan. These can be hikes, rock climbing events, and/or community iftaar. </li>
+  <li>Continue hiking on your own, or with your family/friends. Hike a total of 50km in Ramadan months, and send us the log of your activities.</li>
+</ol>
+
+    </div>
+  </section>
+
+  <Testimonials
+    title="Members who completed the challenge"
+    subtitle="The following members have completed the challenge"
+    testimonials={[
+      {
+        testimonial: `Once this challenge ends, people who completed it will be recognized here`,
+        name: 'Participant\'s Name',
+        
+      },
+      {
+        testimonial: `Once this challenge ends, people who completed it will be recognized here`,
+        name: 'Participant\'s Name',
+        
+      },      {
+        testimonial: `Once this challenge ends, people who completed it will be recognized here`,
+        name: 'Participant\'s Name',
+        
+      },
+      
+    ]}
+  />
+
+  <FAQs
+    title="Frequently Asked Questions"
+    items={[
+      {
+        title: 'Why do you want to hike in Ramadan?',
+        description:
+          'Engaging in physical activity in Ramadan is beneficial for your health! We want to keep the group engaged and exploring the outdoors, while adjusting our hikes to be shorter and easier.',
+      },
+      {
+        title: 'Will this impact my ability to pray and fast?',
+        description:
+          'You know your limits better than anyone! If you think a short hike will hinder your ability to pray or fast, we encourage you to avoid participating!',
+      },
+      {
+        title: 'I\'m not fasting, can I join and eat/drink on the hike?',
+        description:
+          'While we don\'t stop anyone from joining our hikes, we do request that you respect the participants who are fasting and refrain from eating/drinking infront of them.',
+      },
+      {
+        title: 'Can I partake in this challenge on my own without joining group activities?',
+        description:
+          'We have two challenges this year for Ramadan. While you can hike on your own, and post your content on the group page, to earn recognition for this challenge, you have to either join 4 group events, or hike 50km on your own/with family',
+      },
+
+      {
+        title: 'What do you win from completing this challenge?',
+        description:
+          'There are no monitary benefits or rewards for participating in this challenge. The participants who complete this challenge, will have their name added to this page and will receive recognition on social media. You will also receive a certificate of achievement from the group.',
+      },
+
+    ]}
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </FAQs>
+
+
+</Layout>
+
