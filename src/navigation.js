@@ -103,7 +103,7 @@ export const footerData = {
     links: [
       {
         text: '2024 - Ramadan Challenge',
-        href: getPermalink('/challenges#2024-ramadan-challenge')
+        href: getPermalink('/ramadan-challenge')
       },
       {
         text: 'Bruce Trail Challenge',
