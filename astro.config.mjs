@@ -31,7 +31,8 @@ export default defineConfig({
 
   output: 'static',
   redirects: {
-    '/waiver': 'https://forms.gle/FHFrn1w41DoCPJGD9'
+    '/waiver': 'https://forms.gle/FHFrn1w41DoCPJGD9',
+    '/campaign/active': 'https://fundraise.islamicreliefcanada.org/campaign/water-wells-sponsorship-2759#attr=9362'
   },
   integrations: [
     tailwind({
