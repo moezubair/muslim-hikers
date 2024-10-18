@@ -60,7 +60,9 @@ export const headerData = {
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://fb.com/groups/muslim.hikers.ontario' },
     { ariaLabel: 'Strava', icon: 'tabler:brand-strava', href: 'https://www.strava.com/clubs/muslimoutdooradventures' },
   ],
-  actions: [{ text: 'Events', href: 'https://fb.com/groups/muslim.hikers.ontario/events', target: '_blank' }],
+  actions: [
+    { text: 'Donate', href: 'https://www.launchgood.com/v4/campaign/muslim_outdoor_adventures_fundraiser', target: '_blank' }
+  ],
 };
 
 export const footerData = {
@@ -74,6 +76,10 @@ export const footerData = {
       {
         text: 'Privacy Policy',
         href: getPermalink('/privacy')
+      },
+      {
+        text: 'Donate',
+        href: getPermalink('https://www.launchgood.com/v4/campaign/muslim_outdoor_adventures_fundraiser')
       },
     ]
   },

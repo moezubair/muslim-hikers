@@ -32,7 +32,7 @@ export default defineConfig({
   output: 'static',
   redirects: {
     '/waiver': 'https://forms.gle/FHFrn1w41DoCPJGD9',
-    '/campaign/active': 'https://fundraise.islamicreliefcanada.org/campaign/water-wells-sponsorship-2759#attr=9362'
+    '/campaign/active': 'https://www.launchgood.com/v4/campaign/muslim_outdoor_adventures_fundraiser'
   },
   integrations: [
     tailwind({
