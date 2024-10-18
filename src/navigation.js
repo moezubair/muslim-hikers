@@ -30,10 +30,6 @@ export const headerData = {
           href: getPermalink('/harassment')
         },
         {
-          text: 'Survey',
-          href: getPermalink('/survey')
-        },
-        {
           text: 'Waiver',
           href: 'https://forms.gle/FHFrn1w41DoCPJGD9',
         },
@@ -79,7 +75,7 @@ export const footerData = {
       },
       {
         text: 'Donate',
-        href: getPermalink('https://www.launchgood.com/v4/campaign/muslim_outdoor_adventures_fundraiser')
+        href: 'https://www.launchgood.com/v4/campaign/muslim_outdoor_adventures_fundraiser'
       },
     ]
   },

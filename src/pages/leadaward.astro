@@ -1,0 +1,23 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Stats from '~/components/widgets/Stats.astro';
+import Features from '~/components/widgets/Features.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+
+const metadata = {
+  title: 'Hike Lead Award',
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+
+<div class="mb-8 md:mx-auto md:mb-12 text-center max-w-3xl">
+<p class="mt-4 text-muted text-xl"><br />Please take a few minutes to complete the following survey.</p>
+</div>
+<script src="https://tally.so/widgets/embed.js"></script>
+
+  <!-- Hero Widget ******************* -->
+  <iframe data-tally-src="https://tally.so/embed/w4oeLo?hideTitle=1&dynamicHeight=1" loading="lazy" width="100%" height="386" frameborder="0" marginheight="0" marginwidth="0" title="Hike Lead Awards"></iframe>
+  <script type="text/javascript">Tally.loadEmbeds();</script>
+</Layout>
