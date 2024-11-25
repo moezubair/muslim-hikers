@@ -1,0 +1,24 @@
+---
+import Headline from '../ui/Headline.astro';
+---
+<Headline title={"Upcoming Events"} />
+<div class="calendar-embed">
+  <iframe
+    src={`https://lu.ma/embed/calendar/cal-aJgquiXICfQyoRA/events?lt=dark`}
+    width="800"
+    height="450"
+    style="border: 1px solid dark; border-radius: 4px;"
+    allowfullscreen="true"
+    aria-hidden="false"
+    tabindex="0"
+  ></iframe>
+</div>
+
+<style>
+  .calendar-embed {
+    --calendar-border-color: #bfcbda88;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+</style>

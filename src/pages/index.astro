@@ -7,6 +7,8 @@ import Stats from '~/components/widgets/Stats.astro';
 
 import FAQs from '~/components/widgets/FAQs.astro';
 
+import CalendarEmbed from '~/components/widgets/CalendarEmbed.astro';
+
 const metadata = {
   title: 'Muslim Outdoor Adventures - Home',
 };
@@ -40,21 +42,9 @@ const metadata = {
         From exploring the Bruce Trail, to camping and stargazing events! Ontario is yours to discover!
     </Fragment>
   </Hero2>
-  <div class="relative m-auto max-w-5xl">
-      <div class="relative h-0 pb-[56.25%]">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/MGHqZdV1gQk?si=dxO7lyoCOberDDQs"
-          title="YouTube video player"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
-          allowfullscreen
-          class="absolute top-0 left-0 w-full h-full"
-        >
-        </iframe>
-      </div>
-    </div>
 
+  <!-- Calendar Embed **************** -->
+  <CalendarEmbed />
 
 
   <!-- Stats Widget ****************** -->
