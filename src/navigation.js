@@ -53,7 +53,7 @@ export const headerData = {
   ],
   socialLinks: [
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://instagram.com/muslimoutdooradventures' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://fb.com/groups/muslim.hikers.ontario' },
+    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://fb.com/groups/muslimoutdooradventures' },
     { ariaLabel: 'Strava', icon: 'tabler:brand-strava', href: 'https://www.strava.com/clubs/muslimoutdooradventures' },
   ],
   actions: [
@@ -124,7 +124,7 @@ export const footerData = {
   ],
   socialLinks: [
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://instagram.com/muslimoutdooradventures' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://fb.com/groups/muslim.hikers.ontario' },
+    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://fb.com/groups/muslimoutdooradventures' },
     { ariaLabel: 'Strava', icon: 'tabler:brand-strava', href: 'https://www.strava.com/clubs/muslimoutdooradventures' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
   ],
