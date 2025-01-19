@@ -57,7 +57,7 @@ export const headerData = {
     { ariaLabel: 'Strava', icon: 'tabler:brand-strava', href: 'https://www.strava.com/clubs/muslimoutdooradventures' },
   ],
   actions: [
-    { text: 'Donate', href: 'https://www.launchgood.com/v4/campaign/muslim_outdoor_adventures_fundraiser', target: '_blank' }
+    { text: 'Donate', href: 'https://donate.stripe.com/3csg2d1bX2A3dHO144', target: '_blank' }
   ],
 };
 
@@ -75,7 +75,7 @@ export const footerData = {
       },
       {
         text: 'Donate',
-        href: 'https://www.launchgood.com/v4/campaign/muslim_outdoor_adventures_fundraiser'
+        href: 'https://donate.stripe.com/3csg2d1bX2A3dHO144'
       },
     ]
   },
