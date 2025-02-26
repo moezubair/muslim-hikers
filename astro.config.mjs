@@ -32,7 +32,7 @@ export default defineConfig({
   output: 'static',
   redirects: {
     '/waiver': 'https://forms.gle/FHFrn1w41DoCPJGD9',
-    '/campaign/active': 'https://www.launchgood.com/v4/campaign/muslim_outdoor_adventures_fundraiser',
+    '/campaign/active': 'https://foodbanksmississauga.akaraisin.com/ui/HungerWarriors/t/e91b9960d017456c8869ceefb8276f0b',
     '/events': 'https://lu.ma/muslim'
   },
   integrations: [
