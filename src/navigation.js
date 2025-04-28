@@ -74,6 +74,10 @@ export const footerData = {
         href: getPermalink('/privacy')
       },
       {
+        text: 'Membership',
+        href: getPermalink('/membership')
+      },
+      {
         text: 'Donate',
         href: 'https://donate.stripe.com/3csg2d1bX2A3dHO144'
       },
