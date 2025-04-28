@@ -7,6 +7,8 @@ import Stats from '~/components/widgets/Stats.astro';
 
 import FAQs from '~/components/widgets/FAQs.astro';
 
+import Pricing from '~/components/widgets/Pricing.astro';
+
 import CalendarEmbed from '~/components/widgets/CalendarEmbed.astro';
 
 const metadata = {
@@ -53,17 +55,61 @@ const metadata = {
   <!-- Calendar Embed **************** -->
   <CalendarEmbed />
 
-
+  <Pricing 
+  id="moa-pricing"
+  title="Membership Plans"
+  subtitle="Join the Movement!"
+  tagline="Support MOA and unlock great benefits."
+  prices={[
+        {
+      title: "Per Event",
+      subtitle: "Pay as you go",
+      price: "2-10",
+      period: "per event",
+      items: [
+        { description: "Access to regular events", icon: "tabler:check" },
+        { description: "FB and Whatsapp group access", icon: "tabler:check" },
+      ],
+      callToAction: { text: 'Join Next Hike', href: "https://lu.ma/muslim" },
+    },
+    {
+      title: "Monthly",
+      subtitle: "Flexible membership",
+      price: "8",
+      period: "per month",
+      items: [
+        { description: "Access to regular events", icon: "tabler:check" },
+        { description: "Access to members-only events", icon: "tabler:check" },
+        { description: "Priority registration", icon: "tabler:check" },
+        { description: "Members-only WhatsApp group", icon: "tabler:check" },
+      ],
+      callToAction: { text: 'Join Monthly', href: "https://lu.ma/muslim" },
+    },
+    {
+      title: "Annual",
+      subtitle: "Best Value!",
+      price: "80",
+      period: "per year",
+      hasRibbon: true,
+      ribbonTitle: "Best Deal",
+      items: [
+        { description: "Everything in Monthly plan", icon: "tabler:check" },
+        { description: "Annual appreciation gift", icon: "tabler:gift" },
+      ],
+      callToAction: { text: "Join Yearly", href: "https://lu.ma/muslim" },
+    }
+  ]}
+/>
   <!-- Stats Widget ****************** -->
 
   <Stats
     title="Activities we've undertaken recently as a group"
     subtitle="From hiking the Bruce Trail, to fundraising events and workshops, we do it all!"
     stats={[
-      { title: 'KM Hiked', amount: '2,000+' },
-      { title: 'Trails Completed', amount: '300+' },
-      { title: 'Total Members', amount: '3,400+' },
-      { title: 'Raised for Charity', amount: '$11,000+' },
+      { title: 'KM Hiked', amount: '2,500+' },
+      { title: 'Trails Completed', amount: '400+' },
+      { title: 'Total Members', amount: '3,600+' },
+      { title: 'Raised for Charity', amount: '$13,000+' },
     ]}
   />
 
