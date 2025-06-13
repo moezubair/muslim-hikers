@@ -101,6 +101,10 @@ export const footerData = {
       {
         text: 'Guide to Leading a Hike',
         href: getPermalink('/guides/leading')
+      },
+      {
+        text: 'Suggest an activity',
+        href: getPermalink('/suggest')
       }
     ]
   },
