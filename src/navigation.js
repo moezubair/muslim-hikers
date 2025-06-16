@@ -63,7 +63,7 @@ export const headerData = {
 
 export const footerData = {
   links: [{
-    title: 'Company',
+    title: 'Organization',
     links: [
       {
         text: 'About Us',
@@ -105,6 +105,10 @@ export const footerData = {
       {
         text: 'Suggest an activity',
         href: getPermalink('/suggest')
+      },
+      {
+        text: 'Feedback / Report an Incident',
+        href: getPermalink('/feedback')
       }
     ]
   },
