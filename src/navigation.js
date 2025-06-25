@@ -109,6 +109,10 @@ export const footerData = {
       {
         text: 'Feedback / Report an Incident',
         href: getPermalink('/feedback')
+      },
+      {
+        text: 'Collaborate with Us',
+        href: getPermalink('/collab')
       }
     ]
   },
