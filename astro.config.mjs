@@ -32,7 +32,8 @@ export default defineConfig({
   output: 'static',
   redirects: {
     '/waiver': 'https://forms.gle/FHFrn1w41DoCPJGD9',
-    '/campaign/active': 'https://foodbanksmississauga.akaraisin.com/ui/HungerWarriors/t/e91b9960d017456c8869ceefb8276f0b',
+    '/campaign/active': 'https://fundraise.islamicreliefcanada.org/campaign/let-s-build-a-water-well-and-provide-water-to-the-needy-3032',
+    '/water': 'https://fundraise.islamicreliefcanada.org/campaign/let-s-build-a-water-well-and-provide-water-to-the-needy-3032',
     '/events': 'https://lu.ma/muslim'
   },
   integrations: [
