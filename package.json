@@ -55,5 +55,7 @@
   },
   "engines": {
     "node": ">=18.14.1"
-  }
+  },
+   "resolutions": { "cheerio": "1.0.0-rc.12" }
+
 }
