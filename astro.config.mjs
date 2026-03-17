@@ -41,6 +41,7 @@ export default defineConfig({
       applyBaseStyles: false,
     }),
     sitemap({
+      file: 'sitemap.xml',
       filter: (page) => !page.includes('/events') &&
                         !page.includes('/water') &&
                         !page.includes('/waiver')
