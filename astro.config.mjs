@@ -25,7 +25,7 @@ const whenExternalScripts = (items = []) =>
     : [];
 
 export default defineConfig({
-  site: SITE.site,
+  site: SITE.site || process.env.SITE || import.meta.env.SITE || 'https://muslimoutdooradventures.com',
   base: SITE.base,
   trailingSlash: SITE.trailingSlash ? 'always' : 'never',
 
