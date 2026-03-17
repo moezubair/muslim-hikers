@@ -40,7 +40,11 @@ export default defineConfig({
     tailwind({
       applyBaseStyles: false,
     }),
-    sitemap(),
+    sitemap({
+      filter: (page) => !page.includes('/events') &&
+                        !page.includes('/water') &&
+                        !page.includes('/waiver')
+    }),
     mdx(),
     icon({
       include: {
