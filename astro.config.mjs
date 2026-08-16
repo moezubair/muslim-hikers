@@ -34,7 +34,7 @@ export default defineConfig({
     '/waiver': 'https://forms.gle/FHFrn1w41DoCPJGD9',
     '/campaign/active': 'https://fundraise.islamicreliefcanada.org/campaign/let-s-build-a-water-well-and-provide-water-to-the-needy-3032',
     '/water': 'https://fundraise.islamicreliefcanada.org/campaign/let-s-build-a-water-well-and-provide-water-to-the-needy-3032',
-    '/events': 'https://lu.ma/muslim'
+    '/events': 'https://onemorehike.com/muslim'
   },
   integrations: [
     tailwind({
